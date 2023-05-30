@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\SDTimer\SDTimer\bin\Debug\SDTimer.exe.config
+C:\Users\Admin\source\repos\SDTimer\SDTimer\bin\Debug\SDTimer.exe
+C:\Users\Admin\source\repos\SDTimer\SDTimer\bin\Debug\SDTimer.pdb
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.Form1.resources
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.Properties.Resources.resources
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.exe
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.pdb
+C:\Users\Admin\source\repos\SDTimer\SDTimer\bin\Debug\SDTimer.exe.manifest
+C:\Users\Admin\source\repos\SDTimer\SDTimer\bin\Debug\SDTimer.application
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.exe.manifest
+C:\Users\Admin\source\repos\SDTimer\SDTimer\obj\Debug\SDTimer.application

@@ -7,5 +7,5 @@ This is just a fun project that was inspired by WeAreDevs's Shutdown Timer, but 
 ## Cancel timer  
 Allows you to reset the timer and cancel the shutdown process.  
 ## Force close all programs on shutdown  
-Make all programs force close. May cause unsaved data.  
+Make all programs force close. May cause unsaved data.      
 and general features inspired by WRD's Shutdown Timer.

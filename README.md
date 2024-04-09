@@ -1,6 +1,6 @@
 # SDTimer
-SDTimer, or Shutdown Timer  
-For this to work, please install [.NET Framework 4.8 or later](https://dotnet.microsoft.com/en-us/download/dotnet-framework).
+SDTimer, a.k.a Shutdown Timer  
+You need to install [.NET Framework 4.8 or later](https://dotnet.microsoft.com/en-us/download/dotnet-framework) to get all the dependencies this program needs.
 
 **You can freely fork and modify this repo + distributing it.**  
 # Features  

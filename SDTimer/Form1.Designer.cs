@@ -38,7 +38,9 @@
             this.labelCountdown = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.checkBoxForceShutdown = new System.Windows.Forms.CheckBox();
+            this.radioButtonShutdown = new System.Windows.Forms.RadioButton();
+            this.radioButtonRestart = new System.Windows.Forms.RadioButton();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textboxHours
@@ -47,6 +49,7 @@
             this.textboxHours.Name = "textboxHours";
             this.textboxHours.Size = new System.Drawing.Size(166, 20);
             this.textboxHours.TabIndex = 0;
+            this.textboxHours.Text = "0";
             // 
             // textboxMinutes
             // 
@@ -54,6 +57,7 @@
             this.textboxMinutes.Name = "textboxMinutes";
             this.textboxMinutes.Size = new System.Drawing.Size(166, 20);
             this.textboxMinutes.TabIndex = 1;
+            this.textboxMinutes.Text = "5";
             // 
             // textboxSeconds
             // 
@@ -61,6 +65,7 @@
             this.textboxSeconds.Name = "textboxSeconds";
             this.textboxSeconds.Size = new System.Drawing.Size(166, 20);
             this.textboxSeconds.TabIndex = 2;
+            this.textboxSeconds.Text = "0";
             // 
             // label1
             // 
@@ -134,22 +139,47 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkBoxForceShutdown
+            // radioButtonShutdown
             // 
-            this.checkBoxForceShutdown.AutoSize = true;
-            this.checkBoxForceShutdown.Location = new System.Drawing.Point(419, 6);
-            this.checkBoxForceShutdown.Name = "checkBoxForceShutdown";
-            this.checkBoxForceShutdown.Size = new System.Drawing.Size(217, 17);
-            this.checkBoxForceShutdown.TabIndex = 10;
-            this.checkBoxForceShutdown.Text = "Force close all applications on shutdown";
-            this.checkBoxForceShutdown.UseVisualStyleBackColor = true;
+            this.radioButtonShutdown.AutoSize = true;
+            this.radioButtonShutdown.Checked = true;
+            this.radioButtonShutdown.Location = new System.Drawing.Point(15, 229);
+            this.radioButtonShutdown.Name = "radioButtonShutdown";
+            this.radioButtonShutdown.Size = new System.Drawing.Size(73, 17);
+            this.radioButtonShutdown.TabIndex = 11;
+            this.radioButtonShutdown.TabStop = true;
+            this.radioButtonShutdown.Text = "Shutdown";
+            this.radioButtonShutdown.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRestart
+            // 
+            this.radioButtonRestart.AutoSize = true;
+            this.radioButtonRestart.Location = new System.Drawing.Point(569, 229);
+            this.radioButtonRestart.Name = "radioButtonRestart";
+            this.radioButtonRestart.Size = new System.Drawing.Size(59, 17);
+            this.radioButtonRestart.TabIndex = 13;
+            this.radioButtonRestart.TabStop = true;
+            this.radioButtonRestart.Text = "Restart";
+            this.radioButtonRestart.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.25F);
+            this.label5.Location = new System.Drawing.Point(245, 200);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(154, 26);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Choose mode:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(640, 197);
-            this.Controls.Add(this.checkBoxForceShutdown);
+            this.ClientSize = new System.Drawing.Size(640, 251);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.radioButtonRestart);
+            this.Controls.Add(this.radioButtonShutdown);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelCountdown);
@@ -160,6 +190,8 @@
             this.Controls.Add(this.textboxSeconds);
             this.Controls.Add(this.textboxMinutes);
             this.Controls.Add(this.textboxHours);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -179,7 +211,9 @@
         private System.Windows.Forms.Label labelCountdown;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.CheckBox checkBoxForceShutdown;
+        private System.Windows.Forms.RadioButton radioButtonShutdown;
+        private System.Windows.Forms.RadioButton radioButtonRestart;
+        private System.Windows.Forms.Label label5;
     }
 }
 
